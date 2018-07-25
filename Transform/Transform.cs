@@ -13,7 +13,8 @@ namespace Transform
                 li.Add(Operation(x));
             }
             return li;
- 
+ // public static TEnumerable<TResult> Map<TSource,TResult>(this IEnumerable<TSource> x,Func<TSource,TResult> operation)
+ //return x.Select(transformer);
 
             throw new NotImplementedException();
         }
